@@ -43,8 +43,11 @@ isLoading
 
 split
 {
-	return current.LastQuest != old.LastQuest
-		&& current.LastQuest >= 0;
+	if (settings["AutoSplit"]) {
+		return current.LastQuest != old.LastQuest
+			&& current.LastQuest >= 0;
+	}
+	return false;
 }
 
 exit
