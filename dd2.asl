@@ -1,23 +1,17 @@
-state("dd2", "13678479"){
-	int LastQuest : 0x0FD40190, 0x18;
-	int CurrentQuest : 0x0FD40190, 0x5C;
-	bool CameraReady : 0x0FD37708, 0x50;
-	bool SetupComplete : 0x0FD37708, 0x51;
-	bool Playing : 0x0FD37708, 0x55;
-}
-
-startup
+state("dd2", "13678479")
 {
-	settings.Add("AutoStart", true, "Auto Start");
-	settings.Add("AutoSplit", true, "Auto Split");
+	int LastQuest : 0xFD40190, 0x18;
+	int CurrentQuest : 0xFD40190, 0x5C;
+	// bool CameraReady : 0xFD37708, 0x50;
+	// bool SetupComplete : 0xFD37708, 0x51;
+	bool Playing : 0xFD37708, 0x55;
 }
 
 init
 {
-	var module = modules.First();
-	switch (module.ModuleMemorySize)
+	switch (modules.First().ModuleMemorySize)
 	{
-		case (712413184):
+		case 0x2A769000:
 			version = "13678479";
 			break;
 		default:
@@ -28,12 +22,9 @@ init
 
 start
 {
-	if(settings["AutoStart"]) {
-		return old.CurrentQuest < 0
-		    && current.CurrentQuest == 10030
-		    && current.LastQuest < 0;
-	}
-	return false;
+	return old.CurrentQuest < 0
+		&& current.CurrentQuest == 10030
+		&& current.LastQuest < 0;
 }
 
 isLoading
@@ -43,11 +34,8 @@ isLoading
 
 split
 {
-	if (settings["AutoSplit"]) {
-		return current.LastQuest != old.LastQuest
-			&& current.LastQuest >= 0;
-	}
-	return false;
+	return current.LastQuest != old.LastQuest
+		&& current.LastQuest >= 0;
 }
 
 exit
