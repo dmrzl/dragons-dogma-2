@@ -1,23 +1,8 @@
-state("dd2", "13678479")
+state("dd2")
 {
-	int LastQuest : 0xFD40190, 0x18;
-	int CurrentQuest : 0xFD40190, 0x5C;
-	// bool CameraReady : 0xFD37708, 0x50;
-	// bool SetupComplete : 0xFD37708, 0x51;
-	bool Playing : 0xFD37708, 0x55;
-}
-
-init
-{
-	switch (modules.First().ModuleMemorySize)
-	{
-		case 0x2A769000:
-			version = "13678479";
-			break;
-		default:
-			version = "unknown";
-			break;
-	}
+	int LastQuest : 0xFD3DB78, 0x18;
+	int CurrentQuest : 0xFD3DB78, 0x5C;
+	bool Playing : 0xFD35020, 0x55;
 }
 
 start
