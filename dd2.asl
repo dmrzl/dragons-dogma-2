@@ -16,7 +16,7 @@ state("dd2")
 
 startup
 {
-	//settings.Add("OutroSplit", false, "Split on Outro (experimental)");
+	settings.Add("OutroSplit", false, "Split on Outro (experimental)");
 }
 
 start
@@ -35,7 +35,7 @@ isLoading
 
 split
 {
-	//if(settings["OutroSplit"]) {
+	if(settings["OutroSplit"]) {
 		// this one is super ugly. it is quite easy to split when the Konami logo
 		// disappears, but hard to find a change that signifies it appearing
 		// hence the quite specific pause state values
@@ -53,7 +53,7 @@ split
 		) {
 			return true;
 		}
-	//}
+	}
 
 	return current.LastQuest != old.LastQuest
 		&& current.LastQuest >= 0;
