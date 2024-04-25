@@ -1,17 +1,17 @@
 state("dd2")
 {
 	/* QuestLogManager + 0x18 */
-	int LastQuest : 0xFD4ABC0, 0x18;
+	int LastQuest : 0xFD74930, 0x18;
 	/* QuestLogManager + 0x5c */
-	int CurrentQuest : 0xFD4ABC0, 0x5C;
+	int CurrentQuest : 0xFD74930, 0x5C;
 	/* MainFlowManager + 0x58 */
-	int FlowPhase : 0xFD411E8, 0x58;
+	int FlowPhase : 0xFD6BC60, 0x58;
 	/* PauseManager + 0x38 */
-	uint CurrentPauseTypes : 0xFD57A10, 0x38;
+	uint CurrentPauseTypes : 0xFD81358, 0x38;
 	/* PauseManager + 0x40 */
-	uint CurrentPauseTargets : 0xFD57A10, 0x40;
+	uint CurrentPauseTargets : 0xFD81358, 0x40;
 	/* PauseManager + 0x44 */
-	uint CurrentHideTargets : 0xFD57A10, 0x44;
+	uint CurrentHideTargets : 0xFD81358, 0x44;
 }
 
 startup
