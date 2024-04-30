@@ -2,10 +2,10 @@
 
 ## Skills
 
-Your goal is to get the best gear and max thief + max warfarer and optionally level 3 sorcerer/mage (for levitate).
-Equip both warfarer augments and the thief augments. Warrior also has an augment that boost carry strength I think.
+Your goal is to get the best gear and max Thief + max Warfarer and optionally level 3 sorcerer/mage (for levitate).
+Equip both Warfarer augments and the Thief augments. Warrior also has an augment that boost carry strength I think.
 
-Note that leveling warfarer levels the rest, so I would suggest leveling Thief to level 8 and then only warfarer which does the rest.
+Note that leveling Warfarer levels the rest, so I would suggest leveling Thief to level 8 and then only Warfarer which does the rest.
 It can be argued that you want to achieve that with minimal level progression to get arrested quicker at the Batthal gate although leveling also gives you more stamina and strength, so it is unclear whether that is true.
 In case you *do* want to do that you would try to get these things as fast as possible without leveling:
 
@@ -24,7 +24,7 @@ In case you *do* want to do that you would try to get these things as fast as po
 - Good daggers (I bought the ones from dragonforged in post-game)
 - Optionally helm and/or scarf (get the rest and then check your weight - you want to stay light)
 - 30-40 Healing Roborant since you never know what happens (Mincemeat roborant is what I use)
-- A full stack (99) of Harpsud Roborant since you constantly want to fill your stamina bar
+- A full stack (99) of Harspud Roborant since you constantly want to fill your stamina bar
 - (for any levitation strat) A lightwheight staff
 - (for unending arrow strat) A lightwheight bow
 - 1 unending arrow to end your last setup game
