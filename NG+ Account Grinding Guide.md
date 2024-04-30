@@ -35,7 +35,7 @@ In case you *do* want to do that you would try to get these things as fast as po
 
 ### Portcrystals
 If you go for the unending arrow strat you have to restart the game multiple times anyway and can skip visiting the Sphinx for Portcrystals. Just use the ones you get from Brant and buy one at the dragonforged every game.
-In case you don't want unending arrows and want to get everything in a single game ride the Griffin outside Vernworth to its nest, grab the portcrystal, then stumble through the mist to the Sphinx. Bring her parent and your Main pawn. Do all quests and duplicte the Portcrystal.
+In case you don't want unending arrows and want to get everything in a single game ride the Griffin outside Vernworth to its nest, grab the portcrystal, then stumble through the mist to the Sphinx. Bring her parent and your main pawn, do all her quests and duplicate the Portcrystal.
 
 ### WLCs
 The best way to farm WLCs is to get 2 Thiefs with Bump and Lift (my Main Pawn is a Thief) and a Mage with Celestial Paean. Use Thief as vocation and just use Carve on the back legs of dragons while using Feint. The mage will
