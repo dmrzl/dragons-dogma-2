@@ -26,8 +26,9 @@ In case you *do* want to do that you would try to get these things as fast as po
 - 30-40 Healing Roborant since you never know what happens (Mincemeat roborant is what I use)
 - A full stack (99) of Harpsud Roborant since you constantly want to fill your stamina bar
 - (for any levitation strat) A lightwheight staff
-- (for unending arrow strat) A lightwheight bow 
-- (for unending arrow strat) 6 unending arrow (technically you need 4 + 1 to end the save right before the final dragon). Anything above is spare in case you missed. I use 8.
+- (for unending arrow strat) A lightwheight bow
+- 1 unending arrow to end your last setup game
+- (for unending arrow strat) 6+ unending arrows (technically you need 4 + 1 to end the save right before the final dragon). Anything above is spare in case you missed. I use 8.
 - (untested backup strat) the Sphinx phial to pick up Ambrosius in case the griffing spawns at the beach and prevents you from talking to him. Not worth going to the Sphinx for though.
 
 # Details
@@ -54,3 +55,13 @@ Gold is less of a hassle than you might anticipate. The only gold I lacked and a
 You want the final buff from the Dragonforged on all your clothing and weapons - simply because it drastically reduces their weight. That also means that you need level 3 improvement in any of the forge schools before that which *will be the most grind*. Especially if you
 buff using Dwarven Smithing like me (help the Dwarf that gives you Mystic Archer vocation to get that, *don't do the dull blade questline as it is long and super annoying*).
 Start those enhancements as early as possible since you need annoyingly rare materials for those. Note also that (except for those red dogs) most materials are easier to farm in normal game as Gorechimeras and Griffins have more and more regular spawns. For Gorechimera go to the waterfall cave after visiting Batthal.
+
+## Setup for Runs
+
+End your last game using any vocation that can shoot an unending arrow. Probably warfarer.
+Do a save before going into the final tower. This save allows you to fix things without starting a new game. Make sure that your storage is empty and you have everything you need in your inventory.
+Do another save right before entering the area of the final dragon. Empty the pockets of all your pawns. If they want to pick it up again throw them off the cliff after emptying.
+In a NG+ game your storage will have all items you and your pawns had in your inventories. So this makes sure that you don't have to sieve through trash when re-equipping in a speedrun.
+That save is the one you have to restore using a Savegame Manager everytime you want to start a new run. Every time you load that save enter the area, rush out to skip the fight, then kill the dragon using an unending arrow. Walk out of the celebration scene to the door to end it a bit earlier, then start a NG+ game.
+
+Good luck.
