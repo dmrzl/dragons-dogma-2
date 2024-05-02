@@ -35,7 +35,6 @@ startup
 			textSetting.GetType().GetProperty("Text2").SetValue(textSetting, text);
 		}
     });
-	settings.Add("OutroSplit", false, "Split on Outro (experimental)");
 	settings.Add("Debug", false, "Debug Output");
 }
 
@@ -67,28 +66,8 @@ isLoading
 
 split
 {
-	if(settings["OutroSplit"]) {
-		// this one is super ugly. it is quite easy to split when the Konami logo
-		// disappears, but hard to find a change that signifies it appearing
-		// hence the quite specific pause state values
-		uint oldPauseTypes = old.CurrentPauseTypes;
-		uint curPauseTypes = current.CurrentPauseTypes;
-		uint oldPauseTargets = old.CurrentPauseTargets;
-		uint curPauseTargets = current.CurrentPauseTargets;
-		uint oldHideTargets = old.CurrentHideTargets;
-		uint curHideTargets = current.CurrentHideTargets;
-		if (old.CurrentPauseTypes == 128 &&
-	    	old.CurrentPauseTargets == 512 &&
-			current.CurrentPauseTypes == 64 &&
-	    	current.CurrentPauseTargets == 1279 &&
-			current.CurrentQuest >= 10200
-		) {
-			return true;
-		}
-	}
-
 	return current.LastQuest != old.LastQuest
-		&& current.LastQuest >= 0;
+		&& (current.LastQuest >= 0 || old.LastQuest >= 0);
 }
 
 exit
