@@ -1,17 +1,11 @@
 state("dd2")
 {
 	/* QuestLogManager + 0x18 */
-	int LastQuest : 0xF19FAF8, 0x18;
+	int LastQuest : 0xF845878, 0x18;
 	/* QuestLogManager + 0x5c */
-	int CurrentQuest : 0xF19FAF8, 0x5C;
+	int CurrentQuest : 0xF845878, 0x5C;
 	/* MainFlowManager + 0x58 */
-	int FlowPhase : 0xF197330, 0x58;
-	/* PauseManager + 0x38 */
-	uint CurrentPauseTypes : 0xF1C5008, 0x38;
-	/* PauseManager + 0x40 */
-	uint CurrentPauseTargets : 0xF1C5008, 0x40;
-	/* PauseManager + 0x44 */
-	uint CurrentHideTargets : 0xF1C5008, 0x44;
+	int FlowPhase : 0xF8417B8, 0x58;
 }
 
 startup
@@ -51,7 +45,6 @@ update
 	{
 		vars.SetTextComponent("Current Quest:", current.CurrentQuest.ToString("0"));
 		vars.SetTextComponent("Last Quest:", current.LastQuest.ToString("0"));
-		vars.SetTextComponent("Pause Type:", current.CurrentPauseTypes.ToString("0"));
 		vars.SetTextComponent("Pause Target:", current.CurrentPauseTargets.ToString("0"));
 		vars.SetTextComponent("Hide Targets:", current.CurrentHideTargets.ToString("0"));
 	}
