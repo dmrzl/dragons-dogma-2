@@ -1,11 +1,11 @@
 state("dd2")
 {
-	/* QuestLogManager + 0x18 */
-	int LastQuest : 0xF8E6578, 0x18;
-	/* QuestLogManager + 0x5c */
-	int CurrentQuest : 0xF8E6578, 0x5C;
-	/* MainFlowManager + 0x58 */
-	int FlowPhase : 0xF8E2918, 0x58;
+	/* QuestLogManager + 0x84 */
+	int LastQuest : 0xF8E66B8, 0x84;
+	/* QuestLogManager + 0x8c */
+	int CurrentQuest : 0xF8E66B8, 0x8C;
+	/* MainFlowManager + 0xE8 */
+	int FlowPhase : 0xF8E2A58, 0xE8;
 }
 
 startup
