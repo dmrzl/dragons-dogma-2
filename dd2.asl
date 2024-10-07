@@ -52,10 +52,9 @@ update
 
 isLoading
 {
-	return false;
-	//int phase = current.FlowPhase;
-	//return phase != 25 // InGame
-	//    && phase != 8; // TitleMenu
+	int phase = current.FlowPhase;
+	return phase != 26 // InGame
+	    && phase != 8; // TitleMenu
 }
 
 split
